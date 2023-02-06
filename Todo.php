@@ -66,7 +66,7 @@ define( 'TODO_PLUGIN_DIR', plugin_dir_path( TODO_PLUGIN_FILE ) );
 define( 'TODO_PLUGIN_URL', plugin_dir_url( TODO_PLUGIN_FILE ) );
 
 // Plugin Environment
-define( 'TODO_PLUGIN_DEVELOPMENT', false );
+define( 'TODO_PLUGIN_DEVELOPMENT', true );
 
 if ( file_exists( dirname( __FILE__ ) . '/vendor/autoload.php' ) ) {
 	require_once dirname( __FILE__ ) . '/vendor/autoload.php';

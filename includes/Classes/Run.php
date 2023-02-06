@@ -114,8 +114,8 @@ class Run {
 	 */
 	public function add_admin_menu_items() {
 		$this->hook_suffix = add_menu_page(
-			esc_html__( 'Ninja Setting', 'njt-todo' ),
-			esc_html__( 'Ninja Setting', 'njt-todo' ),
+			esc_html__( 'Todo List', 'njt-todo' ),
+			esc_html__( 'Todo List', 'njt-todo' ),
 			'manage_options',
 			'njt-todo-settings',
 			array( $this, 'njt_todo_options_page' ),
