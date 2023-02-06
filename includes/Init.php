@@ -51,7 +51,7 @@ final class Init {
 	 * @return  void
 	 */
 	public function __clone() {
-		 _doing_it_wrong( __FUNCTION__, __( 'You are not allowed to clone this class.', 'njt-todo' ), '1.0.0' );
+		 _doing_it_wrong( __FUNCTION__, esc_html__( 'You are not allowed to clone this class.', 'njt-todo' ), '1.0.0' );
 	}
 
 	/**
@@ -62,7 +62,7 @@ final class Init {
 	 * @return  void
 	 */
 	public function __wakeup() {
-		_doing_it_wrong( __FUNCTION__, __( 'You are not allowed to unserialize this class.', 'njt-todo' ), '1.0.0' );
+		_doing_it_wrong( __FUNCTION__, esc_html__( 'You are not allowed to unserialize this class.', 'njt-todo' ), '1.0.0' );
 	}
 
 	/**

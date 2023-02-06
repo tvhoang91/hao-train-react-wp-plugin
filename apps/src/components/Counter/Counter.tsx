@@ -5,12 +5,15 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   return (
-    <button 
-      className="todo-btn-counter"
-      onClick={() => setCount((count) => count + 1)}
-    >
-      count is {count}
-    </button>
+    <>
+      <h1>Counter</h1>
+      <button 
+        className="todo-btn-counter"
+        onClick={() => setCount((count) => count + 1)}
+        >
+        count is {count}
+      </button>
+    </>
   )
 }
 

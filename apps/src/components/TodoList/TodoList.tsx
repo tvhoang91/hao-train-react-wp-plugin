@@ -1,6 +1,6 @@
 function TodoList() {
   return (
-    <p>Todo List</p>
+    <h1>Todo List</h1>
   )
 }
 

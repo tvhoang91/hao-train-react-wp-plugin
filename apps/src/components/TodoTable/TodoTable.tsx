@@ -1,6 +1,6 @@
 function TodoTable() {
   return (
-    <p>Todo Table</p>
+    <h1>Todo Table</h1>
   )
 }
 

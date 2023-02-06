@@ -1,5 +1,5 @@
 <?php
-// API
+// Register API
 // GET /todos
 // GET /todos/:id
 // POST /todos
