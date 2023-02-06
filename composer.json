@@ -1,0 +1,13 @@
+{
+    "name": "ninjateam/todo",
+    "description": "Manage your todo task quickly and flexible.",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "NinjaTodo\\": "includes/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
