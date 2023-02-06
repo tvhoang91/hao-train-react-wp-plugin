@@ -1,4 +1,5 @@
 import "./App.css";
+import 'antd/dist/reset.css'
 import Counter from "./components/Counter/Counter";
 
 function App() {

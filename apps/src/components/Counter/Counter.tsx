@@ -1,18 +1,22 @@
 import "./Counter.css"
 import { useState } from "react";
+import { Button, Typography } from "antd";
+
+const { Title } = Typography
 
 function Counter() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>Counter</h1>
-      <button 
+      <Title level={3}>Counter</Title>
+      <Button 
         className="todo-btn-counter"
+        type="primary"
         onClick={() => setCount((count) => count + 1)}
-        >
+      >
         count is {count}
-      </button>
+      </Button>
     </>
   )
 }
